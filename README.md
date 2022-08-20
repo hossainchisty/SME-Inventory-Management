@@ -1,0 +1,3 @@
+# SME-Inventory-Management
+
+Work in progress development and integration...
