@@ -27,11 +27,14 @@ This includes the management of raw materials, components, and finished products
   </summary>
 
 ### Core
-1. Python 
+
+1. Python
 2. Django
 3. Django REST Framework
 4. Postgres
+
 ### Testing and Linting
+
 1. pytest
 2. Coverage.py
 3. Flake8
@@ -39,6 +42,7 @@ This includes the management of raw materials, components, and finished products
 5. isort
 
 ### Services
+
 1. Docker
 2. Github
 3. Github Actions
