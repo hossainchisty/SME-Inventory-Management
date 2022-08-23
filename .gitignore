@@ -75,3 +75,9 @@ db.sqlite3
 pyproject.toml
 start.bat
 .github/
+
+# Ignore Django Migrations in Development if you are working on team
+
+# Only for Development only
+**/migrations/**
+!**/migrations
