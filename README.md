@@ -5,7 +5,7 @@ This includes the management of raw materials, components, and finished products
 <!-- Summary start -->
 <details>
   <summary>
-  Inventory Manages END-TO-END Business Flow🔽
+  🎯Inventory Manages END-TO-END Business Flow
   </summary>
 
 1. Business Product's Management
@@ -23,7 +23,7 @@ This includes the management of raw materials, components, and finished products
 
 <details>
   <summary>
-  Tools & Technologies 
+  🛠️Tools & Technologies 
   </summary>
 
 ### Core
@@ -51,4 +51,4 @@ This includes the management of raw materials, components, and finished products
 </details>
 <!-- Summary end -->
 
-Work in progress development and integration...
+Work in progress development and integration...⌛
