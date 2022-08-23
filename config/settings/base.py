@@ -1,6 +1,7 @@
 """
 Title: SME Inventory Management.
-Description: .
+Description: Inventory management refers to the process of ordering, storing, using, and selling a company's inventory.
+This includes the management of raw materials, components, and finished products and processing of such items..
 Author: Hossain Chisty(Backend Developer)
 Contact: hossain.chisty11@gmail.com
 Github: https://github.com/hossainchisty
@@ -41,8 +42,28 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 ]
 
+# Own Module
+INSTALLED_APPS += [
+    'users.apps.UsersConfig',
+    'customer.apps.CustomerConfig',
+    'supplier.apps.SupplierConfig',
+    'product.apps.ProductConfig',
+    'brand.apps.BrandConfig',
+    'category.apps.CategoryConfig',
+    'purchase.apps.PurchaseConfig',
+    'return.apps.ReturnConfig',
+    'sale.apps.SaleConfig',
+    'expense.apps.ExpenseConfig',
+]
 
-# INSTALLED_APPS += ["debug_toolbar"]
+# Third-part module
+INSTALLED_APPS += [
+    'rest_framework',
+]
+
+
+AUTH_USER_MODEL = 'users.CustomUser'
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -131,7 +152,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Dhaka'
 
 USE_I18N = True
 
