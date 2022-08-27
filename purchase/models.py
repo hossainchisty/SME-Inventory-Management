@@ -21,3 +21,6 @@ class Purchase(BaseModel):
     qty = models.PositiveIntegerField()
     unit_cost = models.PositiveIntegerField()
     total = models.PositiveIntegerField()
+
+    def __str__(self):
+        return self.product.name

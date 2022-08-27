@@ -12,3 +12,6 @@ class Sale(BaseModel):
     shipping_cost = models.PositiveIntegerField(default=0)
     grand_total = models.PositiveIntegerField(default=0)
     note = models.TextField()
+
+    def __str__(self):
+        return self.customer

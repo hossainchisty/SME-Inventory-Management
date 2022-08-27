@@ -19,3 +19,6 @@ class Product(BaseModel):
     )
     unit = models.CharField(max_length=10, choices=UNIT_CHOICES)
     details = models.TextField()
+
+    def __str__(self):
+        return self.name
