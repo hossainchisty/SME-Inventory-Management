@@ -1,4 +1,6 @@
 # flake8: noqa
+from django.conf import settings
+from django.conf.urls.static import static
 from django.contrib import admin
 from django.urls import include, path
 
@@ -12,7 +14,12 @@ urlpatterns = [
 ]
 
 urlpatterns += [
-    path('users/', include('users.urls'))
+    path('', include('core.urls')),
+    path('customer/', include('customer.urls')),
+    path('supplier/', include('supplier.urls')),
+    path('product/', include('product.urls')),
+
+    path('users/', include('users.urls')),
 ]
 
 
@@ -33,7 +40,7 @@ urlpatterns += [
    path('swagger/json/', schema_view.without_ui(cache_timeout=0), name='schema-json'),
    path('swagger/', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
    path('redoc/', schema_view.with_ui('redoc', cache_timeout=0), name='schema-redoc'),
-]
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 # Admin panel configure
 admin.site.site_header = 'SME Inventory Management'
