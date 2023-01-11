@@ -5,7 +5,7 @@ from .models import Expense, Type
 
 @admin.register(Expense)
 class ExpenseAdmin(admin.ModelAdmin):
-    list_display = ("name", "type", "note", "amount", "created_at",)
+    list_display = ("type", "note", "amount", "created_at",)
 
 
 @admin.register(Type)
