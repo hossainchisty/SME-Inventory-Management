@@ -5,7 +5,12 @@ This includes the management of raw materials, components, and finished products
 
 [![Tests](https://github.com/hossainchisty/SME-Inventory-Management/actions/workflows/test.yml/badge.svg?branch=master)](https://github.com/hossainchisty/SME-Inventory-Management/actions/workflows/test.yml) [![Code scanning](https://github.com/hossainchisty/SME-Inventory-Management/actions/workflows/codeql-analysis.yml/badge.svg?branch=master)](https://github.com/hossainchisty/SME-Inventory-Management/actions/workflows/codeql-analysis.yml)
 
-![Screenshot (697)_imac2013_left](https://user-images.githubusercontent.com/62835101/211873387-9c6d9f02-3dca-423c-ad76-3f0acef34d44.png)
+<div align="center">
+
+<img width="50%" align="center" src="https://user-images.githubusercontent.com/62835101/211874571-e23e509c-6cab-49f9-93c6-1aa05d976731.png"/>
+
+</div>
+
 
 
 <!-- Summary start -->
