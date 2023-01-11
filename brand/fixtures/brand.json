@@ -1,0 +1,50 @@
+[
+    {
+        "model": "brand.brand",
+        "pk": 1,
+        "fields": {
+            "user":1,
+            "name": "Mi"
+        }
+    },
+    {
+        "model": "brand.brand",
+        "pk": 2,
+        "fields": {
+            "user":1,
+            "name": "Sony"
+        }
+    },
+    {
+        "model": "brand.brand",
+        "pk": 3,
+        "fields": {
+            "user":1,
+            "name": "Techno"
+        }
+    },
+    {
+        "model": "brand.brand",
+        "pk": 4,
+        "fields": {
+            "user":1,
+            "name": "Symphony"
+        }
+    },
+    {
+        "model": "brand.brand",
+        "pk": 5,
+        "fields": {
+            "user":1,
+            "name": "BenQ"
+        }
+    },
+    {
+        "model": "brand.brand",
+        "pk": 6,
+        "fields": {
+            "user":1,
+            "name": "Acer"
+        }
+    }
+]
