@@ -11,10 +11,9 @@ class Type(BaseModel):
 
 
 class Expense(BaseModel):
-    name = models.CharField(max_length=150)
     type = models.ForeignKey(Type, on_delete=models.CASCADE)
     amount = models.PositiveIntegerField()
     note = models.TextField()
 
     def __str__(self):
-        return self.name
+        return self.note
