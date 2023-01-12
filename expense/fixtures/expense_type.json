@@ -1,0 +1,98 @@
+[
+    {
+        "model": "expense.type",
+        "pk": 1,
+        "fields": {
+            "name": "Rental cost",
+            "user": 1
+        }
+    },
+    {
+        "model": "expense.type",
+        "pk": 2,
+        "fields": {
+            "name": "Mortgage Cost",
+            "user": 1
+        }
+    },
+    {
+        "model": "expense.type",
+        "pk": 3,
+        "fields": {
+            "name": "Leasing cost",
+            "user": 1
+        }
+    },
+    {
+        "model": "expense.type",
+        "pk": 4,
+        "fields": {
+            "name": "Office expenses",
+            "user": 1
+        }
+    },
+    {
+        "model": "expense.type",
+        "pk": 5,
+        "fields": {
+            "name": "Office supplies",
+            "user": 1
+        }
+    },
+    {
+        "model": "expense.type",
+        "pk": 6,
+        "fields": {
+            "name": "Network and communication",
+            "user": 1
+        }
+    },
+    {
+        "model": "expense.type",
+        "pk": 7,
+        "fields": {
+            "name": "Delivery and freight",
+            "user": 1
+        }
+    },
+    {
+        "model": "expense.type",
+        "pk": 8,
+        "fields": {
+            "name": "Furniture",
+            "user": 1
+        }
+    },
+    {
+        "model": "expense.type",
+        "pk": 9,
+        "fields": {
+            "name": "Taxes",
+            "user": 1
+        }
+    },
+    {
+        "model": "expense.type",
+        "pk": 9,
+        "fields": {
+            "name": "Membership fees",
+            "user": 1
+        }
+    },
+    {
+        "model": "expense.type",
+        "pk": 10,
+        "fields": {
+            "name": "Training and education",
+            "user": 1
+        }
+    },
+    {
+        "model": "expense.type",
+        "pk": 11,
+        "fields": {
+            "name": "Food and Drink",
+            "user": 1
+        }
+    }
+]
