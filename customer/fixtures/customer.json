@@ -1,0 +1,153 @@
+[
+    {
+        "model": "customer.customer",
+        "pk": 1,
+        "fields": {
+            "user": 1,
+            "name": "John Doe",
+            "email": "john@gmail.com",
+            "address": "123 Main St",
+            "phone_number": "+8801134567890"
+        }
+    },
+    {
+        "model": "customer.customer",
+        "pk": 2,
+        "fields": {
+            "user": 1,
+            "name": "Julie Doe",
+            "email": "julie@gmail.com",
+            "address": "123 Main St",
+            "phone_number" : "+880123456789"
+           
+        }
+    },
+    {
+        "model": "customer.customer",
+        "pk": 3,
+        "fields": {
+            "user": 1,
+            "name": "Doe John",
+            "email": "doe@gmail.com",
+            "address": "123 Main St",
+            "phone_number": "+8801334567890"
+        }
+    },
+    {
+        "model": "customer.customer",
+        "pk": 4,
+        "fields": {
+            "user": 1,
+            "name": "Jonny Doe",
+            "email": "jonny@gmail.com",
+            "address": "123 Main St",
+            "phone_number": "+8801434567890"
+        }
+    },
+    {
+        "model": "customer.customer",
+        "pk": 5,
+        "fields": {
+            "user": 1,
+            "name": "Arun Doe",
+            "email": "arun@gmail.com",
+            "address": "123 Main St",
+            "phone_number": "+8801534567890"
+            
+        }
+    },
+    {
+        "model": "customer.customer",
+        "pk": 6,
+        "fields": {
+            "user": 1,
+            "name": "Bob Doe",
+            "email": "bob@gmail.com",
+            "address": "123 Main St",
+            "phone_number": "+8801634567890"
+        
+        }
+    },
+    {
+        "model": "customer.customer",
+        "pk": 7,
+        "fields": {
+            "user": 1,
+            "name": "Arab Khan",
+            "email": "arab@gmail.com",
+            "address": "123 Main St",
+            "phone_number": "+8801734567890"
+            
+        }
+    },
+    {
+        "model": "customer.customer",
+        "pk": 8,
+        "fields": {
+            "user": 1,
+            "name": "Arijit Singh",
+            "email": "arijit@gmail.com",
+            "address": "123 Main St",
+            "phone_number": "+8801834567890"
+        }
+    },
+    {
+        "model": "customer.customer",
+        "pk": 9,
+        "fields": {
+            "user": 1,
+            "name": "Amitabh Bachchan",
+            "email": "amit@gmail.com",
+            "address": "123 Main St",
+            "phone_number": "+8801934567890"
+            
+        }
+    },
+    {
+        "model": "customer.customer",
+        "pk": 10,
+        "fields": {
+            "user": 1,
+            "name": "Shahrukh Khan",
+            "email": "khan@gmail.com",
+            "address": "123 Main St",
+            "phone_number": "+8801333567890"
+        }
+    },
+    {
+        "model": "customer.customer",
+        "pk": 11,
+        "fields": {
+            "user": 1,
+            "name": "Micheal Jackson",
+            "email": "micheal@gmail.com",
+            "address": "123 Main St",
+            "phone_number": "+8801536567890"
+           
+        }
+    },
+    {
+        "model": "customer.customer",
+        "pk": 12,
+        "fields": {
+            "user": 1,
+            "name": "Peak Ali",
+            "email": "peak@gmail.com",
+            "address": "123 Main St",
+            "phone_number": "+8801334567490"
+           
+        }
+    },
+    {
+        "model": "customer.customer",
+        "pk": 13,
+        "fields": {
+            "user": 1,
+            "name": "Micheal Jackson",
+            "email": "bo3b@gmail.com",
+            "address": "New Wrok City",
+            "phone_number": "+880133456740"
+           
+        }
+    }
+]
