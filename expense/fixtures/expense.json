@@ -1,0 +1,102 @@
+[
+    {
+        "model": "expense.expense",
+        "pk": 1,
+        "fields": {
+            "user": 1,
+            "type": 1,
+            "amount": 100.00,
+            "note": "test data"
+        }
+    },
+    {
+        "model": "expense.expense",
+        "pk": 2,
+        "fields": {
+            "user": 1,
+            "type": 2,
+            "amount": 300.00,
+            "note": "test data"
+        }
+    },
+    {
+        "model": "expense.expense",
+        "pk": 3,
+        "fields": {
+            "user": 1,
+            "type": 4,
+            "amount": 30.00,
+            "note": "test data"
+        }
+    },
+    {
+        "model": "expense.expense",
+        "pk": 4,
+        "fields": {
+            "user": 1,
+            "type": 5,
+            "amount": 555.00,
+            "note": "test data"
+        }
+    },
+    {
+        "model": "expense.expense",
+        "pk": 5,
+        "fields": {
+            "user": 1,
+            "type": 6,
+            "amount": 235.00,
+            "note": "test data"
+        }
+    },
+    {
+        "model": "expense.expense",
+        "pk": 6,
+        "fields": {
+            "user": 1,
+            "type": 7,
+            "amount": 225.00,
+            "note": "test data"
+        }
+    },
+    {
+        "model": "expense.expense",
+        "pk": 7,
+        "fields": {
+            "user": 1,
+            "type": 8,
+            "amount": 2356.00,
+            "note": "test data"
+        }
+    },
+    {
+        "model": "expense.expense",
+        "pk": 8,
+        "fields": {
+            "user": 1,
+            "type": 8,
+            "amount": 2365.00,
+            "note": "test data"
+        }
+    },
+    {
+        "model": "expense.expense",
+        "pk": 9,
+        "fields": {
+            "user": 1,
+            "type": 7,
+            "amount": 2355.00,
+            "note": "test data"
+        }
+    },
+    {
+        "model": "expense.expense",
+        "pk": 10,
+        "fields": {
+            "user": 1,
+            "type": 7,
+            "amount": 25.00,
+            "note": "test data"
+        }
+    }
+]
