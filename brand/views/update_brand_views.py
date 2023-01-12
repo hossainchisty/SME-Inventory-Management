@@ -2,7 +2,7 @@
 from django.urls import reverse_lazy
 from django.views.generic.edit import UpdateView
 
-from product.models import Brand
+from brand.models import Brand
 
 
 class UpdateBrand(UpdateView):

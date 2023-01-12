@@ -3,7 +3,7 @@ from django.core.paginator import EmptyPage, PageNotAnInteger, Paginator
 from django.shortcuts import render
 from django.views.generic import View
 
-from product.models import Brand
+from brand.models import Brand
 
 
 class BrandListView(View):
