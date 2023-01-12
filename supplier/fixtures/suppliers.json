@@ -1,0 +1,113 @@
+[
+    {
+        "model": "supplier.supplier",
+        "pk": 1,
+        "fields": {
+            "user": 1,
+            "name": "ООО Тестовый поставщик",
+            "email": "amit@gmail.com",
+            "address": "г. Москва, ул. Пушкина, д. 1",
+            "phone_number": "+88019951293732"
+        }
+    },
+    {
+        "model": "supplier.supplier",
+        "pk": 2,
+        "fields": {
+            "user": 1,
+            "name": "John Smith",
+            "email": "john@gmail.com",
+            "address": "San Francisco, CA",
+            "phone_number": "+88018951293732"
+        }
+    },
+    {
+        "model": "supplier.supplier",
+        "pk": 3,
+        "fields": {
+            "user": 1,
+            "name": "Jonny Smith",
+            "email": "jonny@gmail.com",
+            "address": "Rom, Italy",
+            "phone_number": "+88017951293732"
+        }
+    },
+    {
+        "model": "supplier.supplier",
+        "pk": 4,
+        "fields": {
+            "user": 1,
+            "name": "Peter Smith",
+            "email": "peter@gmail.com",
+            "address": "Amsterdam, Netherlands",
+            "phone_number": "+88016951293732"
+        }
+    },
+    {
+        "model": "supplier.supplier",
+        "pk": 5,
+        "fields": {
+            "user": 1,
+            "name": "Julia Smith",
+            "email": "julia@gmail.com",
+            "address": "London, UK",
+            "phone_number": "+88016951593732"
+        }
+    },
+    {
+        "model": "supplier.supplier",
+        "pk": 6,
+        "fields": {
+            "user": 1,
+            "name": "Eugene Smith",
+            "email": "eugen@gmail.com",
+            "address": "Moscow, Russia",
+            "phone_number": "+88015951293732"
+        }
+    },
+    {
+        "model": "supplier.supplier",
+        "pk": 7,
+        "fields": {
+            "user": 1,
+            "name": "Linda Smith",
+            "email": "linda@gmail.com",
+            "address": "Edinburgh, UK",
+            "phone_number": "+88014951293732"
+        }
+    },
+    {
+        "model": "supplier.supplier",
+        "pk": 8,
+        "fields": {
+            "user": 1,
+            "name": "Catherine Smith",
+            "email": "catherine@gmail.com",
+            "address": "Edinburgh, UK",
+            "phone_number": "+88013951293732"
+        }
+    },
+    {
+        "model": "supplier.supplier",
+        "pk": 9,
+        "fields": {
+            "user": 1,
+            "name": "Marry Smith",
+            "email": "marry@gmail.com",
+            "address": "Edinburgh, UK",
+            "phone_number": "+88012951293732"
+            
+        }
+    },
+    {
+        "model": "supplier.supplier",
+        "pk": 10,
+        "fields": {
+            "user": 1,
+            "email": "zoe@gmail.com",
+            "name": "Zoe Smith",
+            "address": "Edinburgh, UK",
+            "phone_number": "+88011951293732"
+        }
+    }
+]
