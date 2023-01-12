@@ -1,0 +1,162 @@
+[
+    {
+        "model": "category.category",
+        "pk": 1,
+        "fields": {
+            "user": 1,
+            "name": "Accessories"
+        }
+    },
+    {
+        "model": "category.category",
+        "pk": 2,
+        "fields": {
+            "user": 1,
+            "name": "Clothing"
+        }
+    },
+    {
+        "model": "category.category",
+        "pk": 3,
+        "fields": {
+            "user": 1,
+            "name": "Apparel"
+        }
+    },
+    {
+        "model": "category.category",
+        "pk": 4,
+        "fields": {
+            "user": 1,
+            "name": "Arts & Entertainment"
+        }
+    },
+    {
+        "model": "category.category",
+        "pk": 5,
+        "fields": {
+            "user": 1,
+            "name": "Craft Paper"
+        }
+    },
+    {
+        "model": "category.category",
+        "pk": 6,
+        "fields": {
+            "user": 1,
+            "name": "Clothing"
+        }
+    },
+    {
+        "model": "category.category",
+        "pk": 7,
+        "fields": {
+            "user": 1,
+            "name": "Fasteners & Closures"
+        }
+    },
+    {
+        "model": "category.category",
+        "pk": 8,
+        "fields": {
+            "user": 1,
+            "name": "Woodwind Instrument Accessories"
+        }
+    },
+    {
+        "model": "category.category",
+        "pk": 9,
+        "fields": {
+            "user": 1,
+            "name": "Film & Television"
+        }
+    },
+    {
+        "model": "category.category",
+        "pk": 10,
+        "fields": {
+            "user": 1,
+            "name": "Finance & Insurance"
+        }
+    },
+    {
+        "model": "category.category",
+        "pk": 11,
+        "fields": {
+            "user": 1,
+            "name": "Food Service"
+        }
+    },
+    {
+        "model": "category.category",
+        "pk": 12,
+        "fields": {
+            "user": 1,
+            "name": "Cameras & Optics"
+        }
+    },
+    {
+        "model": "category.category",
+        "pk": 13,
+        "fields": {
+            "user": 1,
+            "name": "Furniture"
+        }
+    },
+    {
+        "model": "category.category",
+        "pk": 14,
+        "fields": {
+            "user": 1,
+            "name": "Garden & Outdoor"
+        }
+    },
+    {
+        "model": "category.category",
+        "pk": 15,
+        "fields": {
+            "user": 1,
+            "name": "Gifts & Crafts"
+        }
+    },
+    {
+        "model": "category.category",
+        "pk": 16,
+        "fields": {
+            "user": 1,
+            "name": "Health & Beauty"
+        }
+    },
+    {
+        "model": "category.category",
+        "pk": 17,
+        "fields": {
+            "user": 1,
+            "name": "Home & Garden"
+        }
+    },
+    {
+        "model": "category.category",
+        "pk": 18,
+        "fields": {
+            "user": 1,
+            "name": "Home Appliances"
+        }
+    },
+    {
+        "model": "category.category",
+        "pk": 19,
+        "fields": {
+            "user": 1,
+            "name": "Industrial"
+        }
+    },
+    {
+        "model": "category.category",
+        "pk": 20,
+        "fields": {
+            "user": 1,
+            "name": "Electronics"
+        }
+    }
+]
