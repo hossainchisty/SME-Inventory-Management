@@ -1,0 +1,91 @@
+{% extends 'core/_base.html' %}
+{% block body %}
+<!-- Begin Page Content -->
+<div class="container-fluid">
+    <!-- Content Row -->
+    <div class="row">
+        <!-- TOTAL EXPENSE -->
+        {% include 'core/components/TotalExpenseCard.html' %}
+        <!-- End  -->
+
+        <!-- Total Sale-->
+        {% include 'core/components/TotalSaleCard.html' %}
+        <!-- End  -->
+
+
+        <!-- TOTAL PURCHASE COST -->
+        {% include 'core/components/TotalPurchaseCard.html' %}
+        <!-- End  -->
+
+        <!-- TOTAL Return -->
+        {% include 'core/components/TotalReturnCard.html' %}
+        <!-- End  -->
+    </div>
+
+    <!-- Content Row -->
+    <div class="row">
+
+        <!-- Expense Overview Start -->
+        {% include 'core/graph/ExpenseOverview.html' %}
+        <!-- Expense Overview End -->
+
+        <!-- Sales Overview Start -->
+        {% include 'core/graph/SalesOverview.html' %}
+        <!-- Sales Overview End -->
+
+        <!-- Purchase Overview Start -->
+        {% include 'core/graph/PurchaseOverview.html' %}
+        <!-- Purchase Overview End -->
+
+        <!-- Return Overview Start -->
+        {% include 'core/graph/ReturnOverview.html' %}
+        <!-- Return Overview End -->
+
+
+        <!-- Today Status - Start -->
+        <div class="flex space-x-4 pl-3">
+            <div class="justify-between rounded-xl mt-4 p-4 bg-white shadow-lg">
+                <h1 class="text-xl font-bold text-gray-800 mt-4">Today’s Status</h1>
+                <div class="flex justify-between space-x-4 text-center mt-6">
+                    <div class="bg-indigo-50 rounded-xl p-10">
+                        {% comment %} <h3> {% total_balance %}</h3> {% endcomment %}
+                        <h3> $59000</h3>
+                        <span>Total Sales</span>
+                    </div>
+                    <div class="bg-indigo-50 rounded-xl p-10">
+                        {% comment %} <h3>{% get_total_purchase %}</h3> {% endcomment %}
+                        <h3>$53311</h3>
+                        <span>Total Purchase</span>
+                    </div>
+                    <div class="bg-indigo-50 rounded-xl p-10">
+                        {% comment %} <h3>{% get_total_expsense %}</h3> {% endcomment %}
+                        <h3>$4211</h3>
+                        <span>Expense Total</span>
+                    </div>
+
+                    <div class="bg-indigo-50 rounded-xl p-10">
+                        {% comment %} <h3>{% get_total_expsense %}</h3> {% endcomment %}
+                        <h3>$4211</h3>
+                        <span>Total Return</span>
+                    </div>
+                </div>
+            </div>
+            <!--- Top Selling Products Start -->
+            {% include 'core\service\TopSellingProduct.html' %}
+            <!--- Top Selling Products End -->
+        </div>
+        <!-- Today Status - end -->
+    </div>
+    <!-- End Graph -->
+</div>
+<!-- End of Main Content -->
+
+<!-- Footer -->
+{% include "core/footer.html" %}
+<!-- End of Footer -->
+
+</div>
+<!-- End of Content Wrapper -->
+</div>
+<!-- End of Page Wrapper -->
+{% endblock body %}
