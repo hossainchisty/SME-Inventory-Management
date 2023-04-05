@@ -19,7 +19,7 @@ urlpatterns += [
     path('supplier/', include('supplier.urls')),
     path('product/', include('product.urls')),
 
-    path('users/', include('users.urls')),
+   #  path('users/', include('users.urls')),
 ]
 
 
