@@ -51,7 +51,7 @@ INSTALLED_APPS += [
     'brand.apps.BrandConfig',
     'category.apps.CategoryConfig',
     'purchase.apps.PurchaseConfig',
-    'return.apps.ReturnConfig',
+    'returns.apps.ReturnsConfig',
     'sale.apps.SaleConfig',
     'expense.apps.ExpenseConfig',
 ]
