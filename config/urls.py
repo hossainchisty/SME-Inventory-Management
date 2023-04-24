@@ -18,8 +18,9 @@ urlpatterns += [
     path('customer/', include('customer.urls')),
     path('supplier/', include('supplier.urls')),
     path('product/', include('product.urls')),
-
-   #  path('users/', include('users.urls')),
+    path('expense/', include('expense.urls')),
+    path('brand/', include('brand.urls')),
+    path('category/', include('category.urls')),
 ]
 
 
