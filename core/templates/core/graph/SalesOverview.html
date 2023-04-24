@@ -1,0 +1,56 @@
+<div class="col-xl-6 col-lg-7">
+  <div class="card shadow mb-4">
+    <!-- Card Header - Dropdown -->
+    <div
+      class="card-header py-3 d-flex flex-row align-items-center justify-content-between"
+    >
+      <h6 class="m-0 font-weight-bold text-primary">Sales Last 30 Days</h6>
+    </div>
+    <!-- Card Body -->
+    <div class="card-body">
+      <div class="chart-area">
+        <canvas id="salesChart"></canvas>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  // Sample data
+  const data = {
+    labels: ["January", "February", "March", "April", "May", "June", "July"],
+    datasets: [
+      {
+        label: "Looping tension",
+        data: [65, 59, 80, 81, 26, 55, 40, 100],
+        fill: false,
+        borderColor: "rgb(75, 192, 192)",
+      },
+    ],
+  };
+
+  // Area Chart Example
+  var ctx = document.getElementById("salesChart");
+  var myLineChart = new Chart(ctx, {
+    type: "line",
+    data: data,
+    options: {
+      animations: {
+        tension: {
+          duration: 1000,
+          easing: "linear",
+          from: 1,
+          to: 0,
+          loop: true,
+        },
+      },
+      scales: {
+        y: {
+          // defining min and max so hiding the dataset does not change scale range
+          min: 0,
+          max: 100,
+        },
+      },
+    },
+  });
+</script>
