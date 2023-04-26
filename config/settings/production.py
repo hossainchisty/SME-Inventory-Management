@@ -3,7 +3,7 @@
 import sentry_sdk
 import settings
 from sentry_sdk.integrations.django import DjangoIntegration
-
+import dj_database_url
 from .base import *
 
 # Security Principles🛡
@@ -35,3 +35,8 @@ sentry_sdk.init(
     release="simple@%s" % simple.__version__,
     integrations=[DjangoIntegration()],
 )
+
+
+DATABASES = {
+    'default': dj_database_url.parse(os.environ.get('DATABASE_URL'), conn_max_age=600),
+}
