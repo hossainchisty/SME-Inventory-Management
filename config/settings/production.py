@@ -1,8 +1,7 @@
 # flake8: noqa
 
-import sentry_sdk
+
 import settings
-from sentry_sdk.integrations.django import DjangoIntegration
 import dj_database_url
 from .base import *
 
@@ -29,12 +28,7 @@ SESSION_COOKIE_SECURE = True
 # SECURE_CONTENT_TYPE_NOSNIFF = True
 # CSRF_COOKIE_SECURE = True
 
-sentry_sdk.init(
-    dsn=config("SENTRY_DSN", default=""),
-    environment=SIMPLE_ENVIRONMENT,
-    release="simple@%s" % simple.__version__,
-    integrations=[DjangoIntegration()],
-)
+
 
 
 DATABASES = {
