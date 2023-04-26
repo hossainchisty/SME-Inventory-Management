@@ -58,9 +58,9 @@ INSTALLED_APPS += [
 ]
 
 # Third-part module
-INSTALLED_APPS += [
-    'rest_framework',
-]
+# INSTALLED_APPS += [
+    
+# ]
 
 
 AUTH_USER_MODEL = 'users.CustomUser'
@@ -75,28 +75,6 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
-
-##################
-# REST FRAMEWORK #
-##################
-
-# REST_FRAMEWORK = {
-#     'DEFAULT_PERMISSION_CLASSES': [
-#         # 'rest_framework.permissions.IsAuthenticated',
-#         'rest_framework.permissions.AllowAny',
-#     ],
-#     'DEFAULT_AUTHENTICATION_CLASSES': [
-#     'rest_framework.authentication.TokenAuthentication',
-#     'rest_framework.authentication.SessionAuthentication',
-#     ],
-#     'DEFAULT_FILTER_BACKENDS': ['django_filters.rest_framework.DjangoFilterBackend']
-# }
-
-REST_FRAMEWORK = {
-    # 'SEARCH_PARAM': 'search'
-    'SEARCH_PARAM': 'q'
-}
-
 
 ROOT_URLCONF = 'config.urls'
 
@@ -117,8 +95,6 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'config.wsgi.application'
-
-
 
 
 # Password validation
