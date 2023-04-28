@@ -1,4 +1,4 @@
-from django.contrib.auth.models import User
+from users.models import CustomUser
 from django.core.management.base import BaseCommand
 
 
@@ -6,8 +6,8 @@ class Command(BaseCommand):
     help = 'Creates a superuser.'
 
     def handle(self, *args, **options):
-        if not User.objects.filter(email='admin@gmail.com').exists():
-            User.objects.create_superuser(
+        if not CustomUser.objects.filter(email='admin@gmail.com').exists():
+            CustomUser.objects.create_superuser(
                 email='admin',
                 first_name='Super',
                 last_name='Man',
