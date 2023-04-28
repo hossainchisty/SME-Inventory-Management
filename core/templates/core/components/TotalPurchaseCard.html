@@ -1,4 +1,4 @@
-{% load total_purchase %}
+{% comment %} {% load total_purchase %} {% endcomment %}
 <div class="col-xl-3 col-md-6 mb-4">
   <div class="card shadow h-100 py-2">
     <div class="card-body">
@@ -8,7 +8,7 @@
             <a class="text-black hover:no-underline" href="">TOTAL PURCHASE</a>
           </div>
           <div class="h5 mb-0 font-weight-bold text-gray-800">
-            ${% get_total_purchase %}
+            {% comment %} ${% get_total_purchase %} {% endcomment %} $0.00
           </div>
         </div>
         <div class="col-auto">
