@@ -60,4 +60,14 @@ This includes the management of raw materials, components, and finished products
 </details>
 <!-- Summary end -->
 
-Work in progress development and integration...⌛
+You may noticed that I didn't include any instructions on how to run this project in the README file. However, I want to clarify that this was an intentional decision on my part.
+
+I have been working on this project with the intention of selling it for commercial purposes. Therefore, I have chosen not to include detailed instructions in the README file in order to protect the value and exclusivity of the project for potential buyers.
+
+If you are interested in purchasing this project for commercial use, I would be happy to discuss the terms and provide you with the necessary information. Please let me know if you would like to proceed with the discussion.
+
+Thank you for your understanding.
+
+Best regards, <br>
+Hossain Chisty <br>
+hossain.chisty11@gmail.com
