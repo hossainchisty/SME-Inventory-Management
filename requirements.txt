@@ -39,7 +39,7 @@ pycparser==2.21
 pyflakes==2.5.0
 pyHanko==0.17.2
 pyhanko-certvalidator==0.20.1
-pypdf==3.8.1
+pypdf==3.17.0
 pypng==0.20220715.0
 python-bidi==0.4.2
 python-dotenv==0.21.0
