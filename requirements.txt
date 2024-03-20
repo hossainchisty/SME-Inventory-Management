@@ -1,7 +1,7 @@
 arabic-reshaper==3.0.0
 asgiref==3.5.2
 asn1crypto==1.5.1
-black==22.6.0
+black==24.3.0
 Brotli==1.0.9
 certifi==2022.12.7
 cffi==1.15.1
