@@ -18,7 +18,7 @@ django-cors-headers==3.13.0
 drf-yasg==1.21.5
 flake8==5.0.4
 gunicorn==23.0.0
-setuptools==70.0.0
+setuptools==84.1.0
 html5lib==1.1
 idna==3.4
 inflection==0.5.1
