@@ -20,7 +20,7 @@ flake8==5.0.4
 gunicorn==23.0.0
 setuptools==70.0.0
 html5lib==1.1
-idna==3.4
+idna==3.15
 inflection==0.5.1
 isort==5.10.1
 itypes==1.2.0
